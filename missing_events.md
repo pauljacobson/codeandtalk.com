@@ -34,7 +34,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 
 * https://twitter.com/lonestarruby <--- website returned 403 Forbidden on 2017.12.25 --->
 * https://twitter.com/target_rug
-* https://twitter.com/knode_io
+* https://twitter.com/knode_io <--- no response on 2018.01.04 --->
 * https://twitter.com/oreillyhardware
 * https://twitter.com/rubyconferences
 * https://twitter.com/rubynation
@@ -161,7 +161,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/nescalas
 * https://twitter.com/cultivatecon
 * https://twitter.com/codedazeconf
-* https://twitter.com/yowlambdajam
+* https://twitter.com/yowlambdajam - 2018 done, earlier not
 * https://twitter.com/goruco
 * https://twitter.com/altconference
 * https://twitter.com/agileisrael
@@ -421,7 +421,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/digpensw
 * https://twitter.com/devweek
 * https://twitter.com/jquerysf
-* https://twitter.com/yow_conf
+* https://twitter.com/yow_conf - YOW Data 2018 done, others are not
 * https://twitter.com/openhelpconf
 * https://twitter.com/official_gdc
 * https://twitter.com/codemotionworld
@@ -588,7 +588,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/droidconbe
 * https://twitter.com/springone2gx
 * https://twitter.com/madexpo
-* https://twitter.com/codeonthebeach
+
 * https://twitter.com/ccppycon
 * https://twitter.com/dotswift
 * https://twitter.com/islayconf
@@ -837,7 +837,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/phpconferences
 * https://twitter.com/boosterconf
 * https://twitter.com/webrtccamp
-* https://twitter.com/rockymtnruby
+
 * https://twitter.com/devconfu
 * https://twitter.com/sqlsat
 * https://twitter.com/opentechcal
@@ -920,7 +920,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/javacro
 * https://twitter.com/uxcampdc
 * https://twitter.com/pgdayeu
-* https://twitter.com/nerdsummit
+
 * https://twitter.com/rubyconfar
 * https://twitter.com/pnwscala
 * https://twitter.com/scotlandcss
@@ -934,7 +934,7 @@ the best cours of acction is to edit this file and add a comment to the line wit
 * https://twitter.com/windycitythings
 * https://twitter.com/hackidcon
 * https://twitter.com/databythebay
-* https://twitter.com/pytexas
+
 * https://twitter.com/indieconf
 * https://twitter.com/iasummit
 * https://twitter.com/openstreetmapus

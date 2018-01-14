@@ -186,9 +186,9 @@
         "Bordeaux": "1",
         "Châtillon": "1",
         "Lyon": "1",
+        "Montpellier": "1",
         "Nancy": "1",
         "Nantes": "1",
-        "Montpellier": "1",
         "Paris": "1",
         "Rennes": "1",
         "Saint-Martin-d’Hères": "1",
@@ -516,6 +516,7 @@
     "The Netherlands": {
         "Amsterdam": "1",
         "Eindhoven": "1",
+        "Noordwijk": "1",
         "Utrecht": "1",
         "Zeewolde": "1",
         "_area_": {
@@ -597,6 +598,7 @@
         },
         "Florida": {
             "Amelia Island": "1",
+            "Atlantic Beach": "1",
             "Clearwater": "1",
             "Miami": "1",
             "Orlando": "1",
@@ -639,6 +641,7 @@
             "_": "MD"
         },
         "Massachusetts": {
+            "Amherst": "1",
             "Boston": "1",
             "Burlington": "1",
             "Cambridge": "1",
