@@ -6,21 +6,23 @@
     "diversitytickets": "",
     "diversitytickets_text": "",
     "diversitytickets_url": "",
-    "event_end": "2017-09-28",
-    "event_start": "2017-09-25",
+    "event_end": "2008-07-27",
+    "event_start": "2008-07-26",
     "facebook": "",
     "hashtag": "",
     "languages": [
         "English"
     ],
     "location": {
-        "city": "New York City",
-        "country": "USA",
-        "state": "New York"
+        "city": "Leipzig",
+        "country": "Germany",
+        "state": ""
     },
-    "name": "Strata Conf",
-    "tags": [],
-    "twitter": "strataconf",
-    "website": "http://strataconf.com",
+    "name": "EuroSciPy",
+    "tags": [
+        "python"
+    ],
+    "twitter": "",
+    "website": "http://archive.euroscipy.org/conference/euroscipy2008",
     "youtube": ""
 }

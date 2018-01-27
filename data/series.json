@@ -77,6 +77,11 @@
         "description": "",
         "name": "Austrian Perl Workshop"
     },
+    "bangbangcon": {
+        "comment": "",
+        "description": "Ten Minute Talks",
+        "name": "!!Con"
+    },
     "barcelona-perl-workshop": {
         "comment": "",
         "description": "",
@@ -427,6 +432,11 @@
         "comment": "",
         "description": "",
         "name": "European Testing Conference"
+    },
+    "euroscipy": {
+        "comment": "",
+        "description": "Scientific Python in Europe",
+        "name": "EuroSciPy"
     },
     "eurostar": {
         "comment": "",
@@ -1060,6 +1070,11 @@
         "comment": "",
         "description": "",
         "name": "RuhrJS"
+    },
+	"rustbelt-refresh": {
+        "comment": "",
+        "description": "Single-Day Workshop",
+        "name": "Rustbelt Refresh"
     },
     "rustfest": {
         "comment": "",
