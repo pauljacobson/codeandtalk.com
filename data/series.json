@@ -393,6 +393,16 @@
         "description": "",
         "name": "Eclipse Summit India"
     },
+    "elixerconf": {
+        "comment": "",
+        "description": "",
+        "name": "ElixerConf"
+    },
+    "elixerconf-eu": {
+        "comment": "",
+        "description": "",
+        "name": "ElixerConf EU"
+    },
     "elm": {
         "comment": "",
         "description": "",
@@ -713,6 +723,11 @@
         "description": "",
         "name": "London Perl Workshop",
         "twitter": "londonperl"
+    },
+    "lonestar-elixirconf": {
+        "comment": "",
+        "description": "",
+        "name": "Lonestar ElixerConf"
     },
     "meetingcpp": {
         "comment": "",
@@ -1071,7 +1086,7 @@
         "description": "",
         "name": "RuhrJS"
     },
-	"rustbelt-refresh": {
+    "rustbelt-refresh": {
         "comment": "",
         "description": "Single-Day Workshop",
         "name": "Rustbelt Refresh"
@@ -1215,6 +1230,12 @@
         "comment": "",
         "description": "",
         "name": "Women In Tech Summit"
+    },
+    "wordcamp": {
+        "comment": "",
+        "description": "",
+        "name": "Wordcamp",
+        "url": "https://central.wordcamp.org/"
     },
     "writethedocs": {
         "comment": "",
