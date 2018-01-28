@@ -231,6 +231,16 @@ class TestValidation(object):
             'ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file',
             'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
             'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
+            [
+                'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
+                'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
+            ],
+            [
+                'ERROR 14: Tag "qqrq" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
+                'ERROR 14: Tag "blabla" is not in the list of tags found in data/tags.json. Check for typo. Add new tags if missing from our list. in file',
+                'ERROR 16: The conference "name" should not include the year. Seen in',
+                'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
+            ]
         ]
         print("Temp dir: ", tmpdir)
         for cnt in range(len(errors)):
@@ -247,7 +257,13 @@ class TestValidation(object):
             os.environ['CAT_TEST'] = os.path.join(tmp_dir, test_dir_name)
             with pytest.raises(CATerror) as err:
                 GenerateSite().generate_site()
-            assert errors[cnt] in str(err.value)
+            if errors[cnt].__class__.__name__ == 'str':
+                assert errors[cnt] in str(err.value)
+            elif errors[cnt].__class__.__name__ == 'list':
+                for e in errors[cnt]:
+                    assert e in str(err.value)
+            else:
+                raise Exception("Bad test")
             if cnt == 6:
                 assert os.path.join(tmp_dir, test_dir_name, 'events', 'Test-2016.json') in str(err.value)
             elif cnt == 7:
@@ -258,5 +274,7 @@ class TestValidation(object):
                 assert os.path.join(tmp_dir, test_dir_name, 'events', 'test.json') in str(err.value)
             else:
                 assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
+
+
 
 # vim: expandtab
