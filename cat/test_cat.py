@@ -208,7 +208,7 @@ class TestCat(object):
 
 class TestValidation(object):
     def test_locations(self, tmpdir): # 1-5 10-16
-        errors = [
+        single_errors = [
             None,
             None,
             None,
@@ -231,6 +231,10 @@ class TestValidation(object):
             'ERROR 19: The "state" field is missing. See docs/EVENTS.md. In file',
             'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
             'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
+        ]
+
+        multi_errors = [
+            None,
             [
                 'ERROR 20: The "country" field is missing. See docs/EVENTS.md. In file',
                 'ERROR 18: The "city" field is missing. See docs/EVENTS.md. In file',
@@ -242,38 +246,40 @@ class TestValidation(object):
                 'ERROR 21: The "location" field is missing. See docs/EVENTS.md. In file',
             ]
         ]
-        print("Temp dir: ", tmpdir)
-        for cnt in range(len(errors)):
-            if errors[cnt] == None:
-                continue
-            test_dir_name = str(cnt)
-            test_dir = tmpdir.mkdir(test_dir_name)
-            test_dir.mkdir('events')
-            tmp_dir = str(tmpdir)   # needed for Python older than 3.6 ??
-            for filename in ['locations.json', 'series.json', 'tags.json']:
-                shutil.copyfile(os.path.join('data', filename), os.path.join(tmp_dir, test_dir_name, filename))
-            for filename in os.listdir(os.path.join('test_data', test_dir_name, 'events')):
-                shutil.copyfile(os.path.join('test_data', test_dir_name, 'events', filename), os.path.join(tmp_dir, test_dir_name, 'events', filename))
-            os.environ['CAT_TEST'] = os.path.join(tmp_dir, test_dir_name)
-            with pytest.raises(CATerror) as err:
-                GenerateSite().generate_site()
-            if errors[cnt].__class__.__name__ == 'str':
-                assert errors[cnt] in str(err.value)
-            elif errors[cnt].__class__.__name__ == 'list':
-                for e in errors[cnt]:
-                    assert e in str(err.value)
-            else:
-                raise Exception("Bad test")
-            if cnt == 6:
-                assert os.path.join(tmp_dir, test_dir_name, 'events', 'Test-2016.json') in str(err.value)
-            elif cnt == 7:
-                assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.txt') in str(err.value)
-            elif cnt == 8:
-                assert 'test_2016.json' in str(err.value)
-            elif cnt == 9:
-                assert os.path.join(tmp_dir, test_dir_name, 'events', 'test.json') in str(err.value)
-            else:
-                assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
+
+        for test_data_dir, errors in [( os.path.join('test_data', 'single'), single_errors ), ( os.path.join('test_data', 'multi'), multi_errors)]:
+            print("Temp dir: ", tmpdir)
+            for cnt in range(len(errors)):
+                if errors[cnt] == None:
+                    continue
+                test_dir_name = str(cnt)
+                test_dir = tmpdir.mkdir(test_dir_name)
+                test_dir.mkdir('events')
+                tmp_dir = str(tmpdir)   # needed for Python older than 3.6 ??
+                for filename in ['locations.json', 'series.json', 'tags.json']:
+                    shutil.copyfile(os.path.join('data', filename), os.path.join(tmp_dir, test_dir_name, filename))
+                for filename in os.listdir(os.path.join(test_data_dir, test_dir_name, 'events')):
+                    shutil.copyfile(os.path.join(test_data_dir, test_dir_name, 'events', filename), os.path.join(tmp_dir, test_dir_name, 'events', filename))
+                os.environ['CAT_TEST'] = os.path.join(tmp_dir, test_dir_name)
+                with pytest.raises(CATerror) as err:
+                    GenerateSite().generate_site()
+                if errors[cnt].__class__.__name__ == 'str':
+                    assert errors[cnt] in str(err.value)
+                elif errors[cnt].__class__.__name__ == 'list':
+                    for e in errors[cnt]:
+                        assert e in str(err.value)
+                else:
+                    raise Exception("Bad test")
+                if cnt == 6:
+                    assert os.path.join(tmp_dir, test_dir_name, 'events', 'Test-2016.json') in str(err.value)
+                elif cnt == 7:
+                    assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.txt') in str(err.value)
+                elif cnt == 8:
+                    assert 'test_2016.json' in str(err.value)
+                elif cnt == 9:
+                    assert os.path.join(tmp_dir, test_dir_name, 'events', 'test.json') in str(err.value)
+                else:
+                    assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
 
 
 

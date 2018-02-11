@@ -36,11 +36,56 @@
         "description": "",
         "name": "Agile Africa Conference"
     },
+    "agilealliance": {
+        "comment": "",
+        "description": "",
+        "name": "Agile Alliance"
+    },
+    "agilebyexample": {
+        "comment": "",
+        "description": "",
+        "name": "Agile by Example"
+    },
+    "agilecambridge": {
+        "comment": "",
+        "description": "",
+        "name": "Agile Cambridge"
+    },
+    "agileonthebeach": {
+        "comment": "",
+        "description": "",
+        "name": "Agile on the beach"
+    },
+    "agiletestingdays": {
+        "comment": "",
+        "description": "",
+        "name": "Agile Testing Days"
+    },
+    "agilia": {
+        "comment": "",
+        "description": "",
+        "name": "Agilia"
+    },
+    "agl": {
+        "comment": "",
+        "description": "",
+        "name": "AGL"
+    },
+    "akademy": {
+        "comment": "",
+        "description": "",
+        "name": "Akademy"
+    },
     "allthingsopen": {
         "comment": "",
         "description": "",
         "mailing_list": "subscribed",
         "name": "All Things Open"
+    },
+    "andsec": {
+        "comment": "",
+        "description": "",
+        "name": "Andsec"
     },
     "angular-up": {
         "comment": "",
@@ -52,10 +97,20 @@
         "description": "",
         "name": "Angular Connect"
     },
+    "apachebigdata": {
+        "comment": "",
+        "description": "",
+        "name": "Apache Big Data"
+    },
     "apachecon": {
         "comment": "",
         "description": "",
         "name": "Apache Conference"
+    },
+    "apereo": {
+        "comment": "",
+        "description": "",
+        "name": "Apereo"
     },
     "asia-bsd": {
         "comment": "",
@@ -76,6 +131,16 @@
         "comment": "",
         "description": "",
         "name": "Austrian Perl Workshop"
+    },
+    "automotive-linux": {
+        "comment": "",
+        "description": "",
+        "name": "Automotive Linux"
+    },
+    "balccon": {
+        "comment": "",
+        "description": "",
+        "name": "Balccon"
     },
     "bangbangcon": {
         "comment": "",
@@ -112,10 +177,20 @@
         "description": "BuzzJS is a One Day | One Track NYC conference series focused on JavaScript libraries, frameworks & related technologies, showcasing its proliferation. 300 JavaScript developers from the Tri-State area gather in the state-of-the-art Microsoft Technology center in Times Square to learn the latest in Web Technologies from experts in the field.\n\nProduced by http://zen.digital",
         "name": "BuzzJS"
     },
+    "cancwic": {
+        "comment": "",
+        "description": "",
+        "name": "Canadian Women in Computing"
+    },
     "cascadiafest": {
         "comment": "",
         "description": "<a href=\"http://cascadiafest.org/\">Cascadia Fest</a>",
         "name": "CascadiaFest"
+    },
+    "chain-react": {
+        "comment": "",
+        "description": "",
+        "name": "Chain React"
     },
     "chatbotconf": {
         "comment": "",
@@ -152,6 +227,11 @@
         "description": "",
         "name": "Clojure eXchange"
     },
+    "clojured": {
+        "comment": "",
+        "description": "",
+        "name": "clojureD"
+    },
     "clojurewest": {
         "comment": "",
         "description": "",
@@ -163,6 +243,11 @@
         "name": "ClojuTRE",
         "url": "http://clojutre.org/"
     },
+    "cloud-foundry": {
+        "comment": "",
+        "description": "",
+        "name": "Cloud Foundry"
+    },
     "cloudexpoeurope": {
         "comment": "",
         "description": "",
@@ -173,7 +258,7 @@
         "description": "",
         "name": "CloudNativeCon and KubeCon Europe"
     },
-    "cloudnative-kube-us": {
+    "cloudnative-kube-na": {
         "comment": "",
         "description": "",
         "name": "CloudNativeCon and KubeCon USA"
@@ -183,10 +268,20 @@
         "description": "",
         "name": "Cloudstack Collaboration Conference"
     },
+    "codemash": {
+        "comment": "",
+        "description": "",
+        "name": "Codemash"
+    },
     "codemotionworld": {
         "comment": "",
         "description": "",
         "name": "Codemotion World"
+    },
+    "codercruise": {
+        "comment": "",
+        "description": "",
+        "name": "Coder Cruise"
     },
     "codetalks": {
         "comment": "",
@@ -223,6 +318,11 @@
         "description": "",
         "name": "Container World"
     },
+    "containercon-linuxcon-cloudopen-china": {
+        "comment": "",
+        "description": "",
+        "name": "Containercon Linuxcon Cloudopen China"
+    },
     "convergese": {
         "comment": "",
         "description": "",
@@ -243,20 +343,40 @@
         "description": "",
         "name": "Craft Conf"
     },
-    "cssconf-eu": {
+    "crunchconf": {
         "comment": "",
         "description": "",
-        "name": "CSS Conf EU"
+        "name": "Crunch Conf"
+    },
+    "cssconf": {
+        "comment": "",
+        "description": "",
+        "name": "CSS Conf"
     },
     "cssdevconf": {
         "comment": "",
         "description": "<a href=\"http://cssdevconf.com/\">main site</a>",
         "name": "CSS Dev Conf"
     },
+    "cue": {
+        "comment": "",
+        "description": "",
+        "name": "CUE"
+    },
+    "datafest": {
+        "comment": "",
+        "description": "",
+        "name": "Datafest"
+    },
     "dc-baltimore-perl-workshop": {
         "comment": "",
         "description": "",
         "name": "DC-Baltimore Perl Workshop"
+    },
+    "ddd": {
+        "comment": "",
+        "description": "",
+        "name": "DDD"
     },
     "debconf": {
         "comment": "",
@@ -267,6 +387,11 @@
         "comment": "",
         "description": "",
         "name": "Deccan Ruby Conf"
+    },
+    "decompress": {
+        "comment": "",
+        "description": "",
+        "name": "Decompress"
     },
     "devcon-telaviv": {
         "comment": "",
@@ -288,6 +413,11 @@
         "description": "",
         "name": "Dev Day"
     },
+    "devdays": {
+        "comment": "",
+        "description": "",
+        "name": "Devdays"
+    },
     "developer-week": {
         "comment": "",
         "description": "",
@@ -297,6 +427,11 @@
         "comment": "",
         "description": "",
         "name": "Dev Fest"
+    },
+    "devitconf": {
+        "comment": "",
+        "description": "",
+        "name": "Devitconf"
     },
     "devnexus": {
         "comment": "",
@@ -363,6 +498,11 @@
         "description": "",
         "name": "dotJS"
     },
+    "dotscale": {
+        "comment": "",
+        "description": "",
+        "name": "Dot Scale"
+    },
     "droidcon": {
         "comment": "",
         "description": "",
@@ -393,15 +533,25 @@
         "description": "",
         "name": "Eclipse Summit India"
     },
-    "elixerconf": {
+    "elasticon": {
+        "comment": "",
+        "description": "",
+        "name": "ElastiCon"
+    },
+    "elixirconf": {
         "comment": "",
         "description": "",
         "name": "ElixerConf"
     },
-    "elixerconf-eu": {
+    "elixirconf-eu": {
         "comment": "",
         "description": "",
         "name": "ElixerConf EU"
+    },
+    "elixirdaze": {
+        "comment": "",
+        "description": "",
+        "name": "Elixir Daze"
     },
     "elm": {
         "comment": "",
@@ -412,6 +562,11 @@
         "comment": "",
         "description": "",
         "name": "Embedded Linux Conference"
+    },
+    "emberconf": {
+        "comment": "",
+        "description": "",
+        "name": "Emberconf"
     },
     "empirejs": {
         "comment": "",
@@ -468,6 +623,11 @@
         "description": "",
         "name": "FITC"
     },
+    "fl-drupalcamp": {
+        "comment": "",
+        "description": "",
+        "name": "FL Drupalcamp"
+    },
     "flock": {
         "comment": "",
         "description": "",
@@ -477,6 +637,11 @@
         "comment": "",
         "description": "",
         "name": "FLOSS UK"
+    },
+    "fluent": {
+        "comment": "",
+        "description": "",
+        "name": "Fluent"
     },
     "forward-js": {
         "comment": "",
@@ -488,10 +653,20 @@
         "description": "",
         "name": "FOSDEM"
     },
+    "foss-north": {
+        "comment": "",
+        "description": "",
+        "name": "FOSS North"
+    },
     "foss4g": {
         "comment": "",
         "description": "",
         "name": "FOSS4G"
+    },
+    "fossasia": {
+        "comment": "",
+        "description": "",
+        "name": "FOSS Asia"
     },
     "fosscon": {
         "comment": "",
@@ -523,6 +698,16 @@
         "description": "",
         "name": "Front End Conference Zurich"
     },
+    "frontendunited": {
+        "comment": "",
+        "description": "",
+        "name": "FrontEnd United"
+    },
+    "frontfest": {
+        "comment": "",
+        "description": "",
+        "name": "Front Fest"
+    },
     "frontporch": {
         "comment": "",
         "description": "",
@@ -553,10 +738,20 @@
         "description": "",
         "name": "Future Decoded"
     },
+    "geecon-prague": {
+        "comment": "",
+        "description": "",
+        "name": "Geecon Prague"
+    },
     "german-perl-workshop": {
         "comment": "",
         "description": "",
         "name": "German Perl Workshop"
+    },
+    "git-merge": {
+        "comment": "",
+        "description": "",
+        "name": "git merge"
     },
     "github-universe": {
         "comment": "",
@@ -583,6 +778,11 @@
         "description": "",
         "name": "GOTO Conference"
     },
+    "gr8conf": {
+        "comment": "",
+        "description": "",
+        "name": "gr8conf"
+    },
     "graphql": {
         "comment": "",
         "description": "",
@@ -608,6 +808,11 @@
         "description": "",
         "name": "Hackference"
     },
+    "halfstack": {
+        "comment": "",
+        "description": "",
+        "name": "Halfstack"
+    },
     "hpdc": {
         "comment": "",
         "description": "",
@@ -618,6 +823,11 @@
         "description": "",
         "name": "IC2E"
     },
+    "incontro-devops-italia": {
+        "comment": "",
+        "description": "",
+        "name": "Incontro DevOps Italia"
+    },
     "israeli-perl-workshop": {
         "comment": "",
         "description": "",
@@ -627,6 +837,26 @@
         "comment": "",
         "description": "",
         "name": "JavaDay Ukraine"
+    },
+    "javascript-days": {
+        "comment": "",
+        "description": "",
+        "name": "JavaScript Days"
+    },
+    "javazone": {
+        "comment": "",
+        "description": "",
+        "name": "Java Zone"
+    },
+    "jazoon": {
+        "comment": "",
+        "description": "",
+        "name": "Jazoon"
+    },
+    "jazzcon": {
+        "comment": "",
+        "description": "",
+        "name": "JazzCon"
     },
     "jenkinsworld": {
         "comment": "",
@@ -663,6 +893,11 @@
         "description": "",
         "name": "JSUnconf"
     },
+    "juliacon": {
+        "comment": "",
+        "description": "",
+        "name": "Julia Con"
+    },
     "keeprubyweird": {
         "comment": "",
         "description": "",
@@ -677,6 +912,11 @@
         "comment": "",
         "description": "",
         "name": "KVM Forum"
+    },
+    "lambdaconf": {
+        "comment": "",
+        "description": "",
+        "name": "Lambdaconf"
     },
     "laracon": {
         "comment": "",
@@ -703,6 +943,16 @@
         "description": "",
         "name": "Linux Kernel Summit"
     },
+    "linux-security-summit": {
+        "comment": "",
+        "description": "",
+        "name": "Linux Security Summit"
+    },
+    "linux-storage": {
+        "comment": "",
+        "description": "",
+        "name": "Linux Storage"
+    },
     "linuxconf-au": {
         "comment": "",
         "description": "",
@@ -724,10 +974,15 @@
         "name": "London Perl Workshop",
         "twitter": "londonperl"
     },
-    "lonestar-elixirconf": {
+    "lonestar-elixir": {
         "comment": "",
         "description": "",
         "name": "Lonestar ElixerConf"
+    },
+    "loopconf": {
+        "comment": "",
+        "description": "",
+        "name": "Loop Conf"
     },
     "meetingcpp": {
         "comment": "",
@@ -744,6 +999,16 @@
         "description": "",
         "name": "Midwest PHP"
     },
+    "minnewebcon": {
+        "comment": "",
+        "description": "",
+        "name": "Minne Web Con"
+    },
+    "monitorama": {
+        "comment": "",
+        "description": "",
+        "name": "monitorama"
+    },
     "mozfest": {
         "comment": "",
         "description": "",
@@ -758,6 +1023,11 @@
         "comment": "",
         "description": "",
         "name": "NDC"
+    },
+    "nejsconf": {
+        "comment": "",
+        "description": "",
+        "name": "NE js Conf"
     },
     "ng": {
         "comment": "",
@@ -829,6 +1099,11 @@
         "description": "",
         "name": "Open Networking Summit"
     },
+    "open-iot-summit": {
+        "comment": "",
+        "description": "",
+        "name": "Open iot Summit"
+    },
     "open-source-backup": {
         "comment": "",
         "description": "",
@@ -854,6 +1129,11 @@
         "description": "",
         "name": "OpenDayLight Developer Design Forum"
     },
+    "openexpo": {
+        "comment": "",
+        "description": "",
+        "name": "Open Expo"
+    },
     "opensource-hong-kong": {
         "comment": "",
         "description": "",
@@ -864,10 +1144,35 @@
         "description": "",
         "name": "Open Source Bridge"
     },
+    "openstack": {
+        "comment": "",
+        "description": "",
+        "name": "OpenStack"
+    },
+    "openwest": {
+        "comment": "",
+        "description": "",
+        "name": "Open West"
+    },
     "openzfs": {
         "comment": "",
         "description": "",
         "name": "OpenZFS Developer Summit"
+    },
+    "opnfv": {
+        "comment": "",
+        "description": "",
+        "name": "Opn FV"
+    },
+    "orconf": {
+        "comment": "",
+        "description": "",
+        "name": "orconf"
+    },
+    "oscal": {
+        "comment": "",
+        "description": "",
+        "name": "Oscal"
     },
     "osdc": {
         "comment": "",
@@ -884,6 +1189,11 @@
         "description": "",
         "name": "OW2con"
     },
+    "paris-oss": {
+        "comment": "",
+        "description": "",
+        "name": "Paris OSS"
+    },
     "peers-conf": {
         "comment": "",
         "description": "",
@@ -894,10 +1204,20 @@
         "description": "",
         "name": "Penguicon"
     },
+    "percona-live": {
+        "comment": "",
+        "description": "",
+        "name": "Percona Live"
+    },
     "perl-oasis": {
         "comment": "",
         "description": "<a href=\"http://www.perloasis.info/\">Perl Oasis</a> is the annual Perl conference in Orlando Florida.",
         "name": "Perl Oasis"
+    },
+    "pgcon-canada": {
+        "comment": "",
+        "description": "",
+        "name": "PGcon Canada"
     },
     "pgconfeu": {
         "comment": "",
@@ -913,6 +1233,16 @@
         "comment": "",
         "description": "",
         "name": "PHP Serbia"
+    },
+    "php-tour": {
+        "comment": "",
+        "description": "",
+        "name": "PHP Tour"
+    },
+    "phpbenelux": {
+        "comment": "",
+        "description": "",
+        "name": "PHP Benelux"
     },
     "phpconference": {
         "comment": "",
@@ -934,10 +1264,20 @@
         "description": "",
         "name": "PHP South Coast"
     },
+    "phptek": {
+        "comment": "",
+        "description": "",
+        "name": "PHP tek"
+    },
     "phpworld": {
         "comment": "",
         "description": "",
         "name": "php[world]"
+    },
+    "pitercss-conf": {
+        "comment": "",
+        "description": "",
+        "name": "piterCSS Conf"
     },
     "pittsburgh-perl-workshop": {
         "comment": "",
@@ -989,6 +1329,11 @@
         "description": "Python Programing Conference",
         "name": "PyCon"
     },
+    "pyohio": {
+        "comment": "",
+        "description": "",
+        "name": "PyOhio"
+    },
     "pythonbrasil": {
         "comment": "",
         "description": "",
@@ -1016,6 +1361,16 @@
         "description": "",
         "name": "Rails Conf"
     },
+    "react": {
+        "comment": "",
+        "description": "",
+        "name": "React"
+    },
+    "react-amsterdam": {
+        "comment": "",
+        "description": "",
+        "name": "React Amsterdam"
+    },
     "react-conf": {
         "comment": "",
         "description": "",
@@ -1030,6 +1385,11 @@
         "comment": "",
         "description": "",
         "name": "React Rally"
+    },
+    "reasons": {
+        "comment": "",
+        "description": "",
+        "name": "Reasons"
     },
     "refresh": {
         "comment": "",
@@ -1046,6 +1406,16 @@
         "description": "",
         "name": "Reversim Summit"
     },
+    "riviera-dev": {
+        "comment": "",
+        "description": "",
+        "name": "Riviera Dev"
+    },
+    "rocky-mountain-ruby": {
+        "comment": "",
+        "description": "",
+        "name": "Rocky Mountain Ruby"
+    },
     "rollingscopes": {
         "comment": "",
         "description": "",
@@ -1056,10 +1426,20 @@
         "description": "",
         "name": "Rootconf"
     },
+    "rossconf": {
+        "comment": "",
+        "description": "",
+        "name": "Ross Conf"
+    },
     "ruby-lugdunum": {
         "comment": "",
         "description": "",
         "name": "Ruby Lugdunum"
+    },
+    "rubyconf": {
+        "comment": "",
+        "description": "",
+        "name": "Ruby Conf"
     },
     "rubyconf-taiwan": {
         "comment": "",
@@ -1186,30 +1566,95 @@
         "description": "",
         "name": "TestBash"
     },
+    "testcon-vilnius": {
+        "comment": "",
+        "description": "",
+        "name": "Testcon Vilnius"
+    },
+    "testingmind": {
+        "comment": "",
+        "description": "",
+        "name": "Testingmind - Test Automation Summit"
+    },
     "texaslinuxfest": {
         "comment": "",
         "description": "",
         "name": "Texas LinuxFest"
+    },
+    "the-conf": {
+        "comment": "",
+        "description": "",
+        "name": "the-conf"
     },
     "thedevelopersconference": {
         "comment": "",
         "description": "",
         "name": "TDC"
     },
+    "therichwebexperience": {
+        "comment": "",
+        "description": "",
+        "name": "The Rich Web Experience"
+    },
     "thunderplains": {
         "comment": "",
         "description": "",
         "name": "Thunder Plains"
+    },
+    "topconf": {
+        "comment": "",
+        "description": "",
+        "name": "Topconf"
     },
     "ubucon": {
         "comment": "",
         "description": "",
         "name": "UbuCon"
     },
+    "universaljsday": {
+        "comment": "",
+        "description": "",
+        "name": "Universal JS Day"
+    },
+    "ux-immersion-interactions": {
+        "comment": "",
+        "description": "",
+        "name": "UX Immersion Interactions"
+    },
     "uxlondon": {
         "comment": "",
         "description": "",
         "name": "UX London"
+    },
+    "viewsourceconf": {
+        "comment": "",
+        "description": "",
+        "name": "View Source Conf"
+    },
+    "vmworld": {
+        "comment": "",
+        "description": "",
+        "name": "VM World"
+    },
+    "vslive": {
+        "comment": "",
+        "description": "",
+        "name": "VSLive"
+    },
+    "vueconf": {
+        "comment": "",
+        "description": "",
+        "name": "Vue Conf"
+    },
+    "webdagene": {
+        "comment": "",
+        "description": "",
+        "name": "Webdagene"
+    },
+    "webexpo": {
+        "comment": "",
+        "description": "",
+        "name": "Web Expo"
     },
     "webrebels": {
         "comment": "",
@@ -1225,6 +1670,11 @@
         "comment": "",
         "description": "",
         "name": "Web Summit"
+    },
+    "werise": {
+        "comment": "",
+        "description": "",
+        "name": "werise"
     },
     "womenintechsummit": {
         "comment": "",
@@ -1247,10 +1697,15 @@
         "description": "",
         "name": "XDC"
     },
-    "yapc": {
+    "xen": {
         "comment": "",
         "description": "",
-        "name": "YAPC - Yet Another Perl Conference"
+        "name": "XEN"
+    },
+    "xoxo": {
+        "comment": "",
+        "description": "",
+        "name": "XOXO"
     },
     "yapc-asia": {
         "comment": "",
@@ -1274,6 +1729,11 @@
         "comment": "",
         "description": "",
         "name": "You Gotta Love Frontend Conference"
+    },
+    "yow": {
+        "comment": "",
+        "description": "",
+        "name": "Yow"
     },
     "zendcon": {
         "comment": "",
