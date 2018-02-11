@@ -278,7 +278,7 @@ class TestValidation(object):
                     assert 'test_2016.json' in str(err.value)
                 elif cnt == 9:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test.json') in str(err.value)
-                elif cnt == 32:
+                elif cnt == 32: # Added to see if Travis tests for this directory
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test.json') in str(err.value)
                 else:
                     assert os.path.join(tmp_dir, test_dir_name, 'events', 'test-2016.json') in str(err.value)
